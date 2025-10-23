@@ -1,0 +1,27 @@
+
+	.contact-button {
+
+		background-color: skyblue;
+		color: darkblue;
+		width: 300px;
+		height: 30px;
+		border-style: outset  ;
+		border-width: thick;
+		border-color: skyblue;
+		cursor: pointer;
+		transition: filter .75s;
+		font-size: 15px;
+		font-style: italic;
+
+
+		}
+	.contact-button:hover {
+		background-color: lightsalmon;
+		border-color: lightsalmon;
+		transition: background-color 0.75s, border-color 0.75s;
+
+
+	}
+	.contact-button:active {
+		border-style: inset
+	}

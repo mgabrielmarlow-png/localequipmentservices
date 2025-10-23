@@ -1,0 +1,87 @@
+.mainformat{
+	background-color: lightblue;
+	color: darkblue;
+	overflow-x: hidden;
+	margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.centered-container{
+   max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the block horizontally */
+  text-align: left; /* Aligns the text within the block to the left */
+  padding: 20px; /* Optional: adds some spacing inside the container */
+ 
+}
+
+
+
+.magwarheader{
+	background-color: lightskyblue;
+	font-style: italic;
+	color: darkblue;
+	font-size: 60px;
+	text-shadow: 4px 4px 0px white;
+
+  
+
+}
+
+.table1{
+	border-color: ;
+
+}
+.wordy{
+	max-width: 800px;
+	margin-left: 25px;
+	display: inline-block;
+}
+.tooltip-container{
+		position: relative;
+		display: inline-block;	
+}
+.tooltip-text {
+		visibility: hidden;
+	    opacity: 0;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%; /* Position above the element */
+        left: 50%;
+        margin-left: -60px; /* Center the tooltip */
+        transition: opacity 0.3s, visibility 0.3s; /* Smooth transition */
+    }
+
+    .tooltip-container:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    .tableFormat {
+      overflow-x: auto;
+    }
+
+
+  /*(.small-button {
+      width: 400px;
+      height: 800px;
+      border: none;
+      cursor: pointer;
+      background-image: url(businessphoto/electrical.jpg);
+    }
+
+    .large-button {
+      width: 800px;
+      border: none;
+      cursor: pointer;
+      background-image: url(businessphoto/electrical.jpg);
+    })*/

@@ -1,0 +1,32 @@
+.logo-container{
+	height: 225px;
+  display: flex;
+  background-color: lightskyblue;
+  transform: scale(1);
+
+.logo-main{
+	filter: invert(0%);
+	font-weight: bold;
+	font-size: 80px;
+	display: inline-block;
+	border-width: 2px;;
+	margin-right: 1px;
+	color: darkblue;
+	text-shadow: 4px 4px 0px white;
+	line-height: 75px;
+}
+.logo-letters{
+	font-weight: bold;
+	font-style: italic;
+	display: inline-block;
+	font-size: 50px ;
+	margin-top: 12px;
+	line-height: 75px;
+	margin-left: -5px;
+	letter-spacing: -1px;
+	color: darkblue;
+	text-shadow: 4px 4px 0px white;
+}
+.logo-ervices{
+	margin-left: -10px;
+}
